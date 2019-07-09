@@ -62,3 +62,18 @@ D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTest
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.csproj.CopyComplete
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.dll
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\obj\Debug\SpecflowPages.pdb
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\chromedriver.exe
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\SpecflowPages.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\SpecflowPages.pdb
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\RelevantCodes.ExtentReports.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\WebDriver.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\WebDriver.Support.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\WebDriver.xml
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\bin\Debug\WebDriver.Support.xml
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\obj\Debug\SpecflowPages.csprojAssemblyReference.cache
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\obj\Debug\SpecflowPages.csproj.CoreCompileInputs.cache
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\obj\Debug\SpecflowPages.csproj.CopyComplete
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\obj\Debug\SpecflowPages.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\obj\Debug\SpecflowPages.pdb

@@ -27,11 +27,6 @@ namespace SpecflowTests.Utils
         }
 
 
-       
-
-
-
-
         [AfterScenario]
         public void TearDown()
         {
@@ -39,6 +34,7 @@ namespace SpecflowTests.Utils
             // Screenshot
             string img = SaveScreenShotClass.SaveScreenshot(Driver.driver, "Report");
             test.Log(LogStatus.Info, "Snapshot below: " + test.AddScreenCapture(img));
+           // test.Log(LogStatus.Info, "Snapshot below: " + img);
 
             // end test. (Reports)
             CommonMethods.extent.EndTest(CommonMethods.test);

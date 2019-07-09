@@ -89,6 +89,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AcceptanceTest\Steps\AddEducation.cs" />
     <Compile Include="AcceptanceTest\Steps\AddLanguage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AcceptanceTest\Features\SpecFlowLanguage.feature.cs">

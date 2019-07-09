@@ -7,7 +7,7 @@
 #Add languages
 Scenario Outline: Check if the Seller is able to add a language
 	Given I clicked on the Profile tab and the language tab appears
-	When I add a new Language as <Language> Language Level as <Language Level>
+	When I add a new Language as <Language> and Language Level as <Language Level>
 	Then that language should be displayed on my listings
 
 	Examples:
@@ -15,6 +15,7 @@ Scenario Outline: Check if the Seller is able to add a language
 		| English  | Conversational |
 		| Hindi    | Native         |
 
+@ignore
 #Update a language
 Scenario Outline: Check if the seller is able to Update the Language
 	Given Languages tab appears when clicked on Profile tab
@@ -26,6 +27,7 @@ Scenario Outline: Check if the seller is able to Update the Language
 		| Language | Language Level |
 		| English  | Fluent         |
 
+@ignore
 #Delete Language
 Scenario Outline: Check if the seller is able to Delete the Language
 	Given Languages tab appears when clicked on Profile tab
@@ -37,19 +39,8 @@ Scenario Outline: Check if the seller is able to Delete the Language
 		| Language | Language Level |
 		| Hindi    | Native         |
 
-Scenario: Check if language can be added 
+@ignore
+Scenario: Check if language can be added
 	Given Languages tab appears when clicked on Profile tab
 	When I add the language leaving the language level blank
-	Then Error Messege should be displayed 
-
-
-
-
-
-
-
-
-
-
-
-
+	Then Error Messege should be displayed

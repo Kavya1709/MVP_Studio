@@ -12,13 +12,13 @@ namespace SpecflowPages
         public static string Url = "http://www.skillswap.pro/";
 
         //ScreenshotPath
-        public static string ScreenshotPath = @"C:\Users\chand\Desktop\Remote\Onboarding and Competition Tasks\Mars\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\TestReports\Screenshots\";
+        public static string ScreenshotPath = @"D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\TestReports\Screenshots\";
 
         //ExtentReportsPath
-        public static string ReportsPath = @"C:\Users\chand\Desktop\Remote\Onboarding and Competition Tasks\Mars\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\TestReports\Test.html";
+        public static string ReportsPath = @"D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\TestReports\Test.html";
 
         //ReportXML Path
-        public static string ReportXMLPath = @"C:\Users\chand\Desktop\Remote\Onboarding and Competition Tasks\Mars\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowPages\TestReports\ReportXML.xml";
+        public static string ReportXMLPath = @"D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowPages\TestReports\ReportXML.xml";
 
       
 

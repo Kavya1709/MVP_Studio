@@ -11,10 +11,7 @@ namespace SpecflowTests.AcceptanceTest
     [Binding]
     public class SpecFlowFeature1Steps : Utils.Start
     {
-       
-
-
-        [Given(@"I clicked on the Language tab under Profile page")]
+        [Given(@"I clicked on the Profile tab and the language tab appears")]
         public void GivenIClickedOnTheLanguageTabUnderProfilePage()
         {
 
@@ -26,39 +23,35 @@ namespace SpecflowTests.AcceptanceTest
         }
 
 
-        //[When(@"I add a new (.*) and (.*)")]
-        //public void WhenIAddANewAnd(string Language, string Language_Level)
-        //{
-        //    //Console.WriteLine("Language : " + Language);
-        //    //Console.WriteLine("Language Level : " + Language_Level);
-
-
-
-        //}
-
-
-
-
-        [When(@"I add a new language")]
-        public void WhenIAddANewLanguage()
+        [When(@"I add a new Language as (.*) and Language Level as (.*)")]
+        public void WhenIAddANewLanguageAsEnglishAndLanguageLevelAsConversational(string Language, string Language_Level)
         {
             //Click on Add New button
             Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/table/thead/tr/th[3]/div")).Click();
 
             //Add Language
-            Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[1]/input")).SendKeys("English");
+            Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[1]/input")).SendKeys(Language);
 
             //Click on Language Level
             Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[2]/select")).Click();
 
             //Choose the language level
-            IWebElement Lang = Driver.driver.FindElements(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[2]/select/option"))[1];
-            Lang.Click();
-
+            Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[2]/select/option")).SendKeys(Language_Level);
+            
             //Click on Add button
             Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[3]/input[1]")).Click();
-
         }
+
+
+
+        //[When(@"I add a new (.*) and (.*)")]
+        //public void WhenIAddANewAnd(string Language, string Language_Level)
+        //{
+        //    //Console.WriteLine("Language : " + Language);
+        //    //Console.WriteLine("Language Level : " + Language_Level);
+        //} 
+
+        
 
         [Then(@"that language should be displayed on my listings")]
         public void ThenThatLanguageShouldBeDisplayedOnMyListings()

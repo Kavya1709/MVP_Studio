@@ -93,3 +93,22 @@ D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTest
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowTests\obj\Debug\SpecflowTests.csproj.CopyComplete
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowTests\obj\Debug\SpecflowTests.dll
 D:\MVP Studio\Onboarding task\SpecflowTests-Base\SpecflowTests-Base\SpecflowTests\SpecflowTests\obj\Debug\SpecflowTests.pdb
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\chromedriver.exe
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\SpecflowTests.dll.config
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\SpecflowTests.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\SpecflowTests.pdb
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\Newtonsoft.Json.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\nunit.framework.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\RelevantCodes.ExtentReports.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\SpecflowPages.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\System.ValueTuple.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\TechTalk.SpecFlow.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\SpecflowPages.pdb
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\Newtonsoft.Json.xml
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\bin\Debug\nunit.framework.xml
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\obj\Debug\SpecflowTests.csprojAssemblyReference.cache
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\obj\Debug\SpecflowTests.csproj.CoreCompileInputs.cache
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\obj\Debug\SpecflowTests.csproj.CopyComplete
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\obj\Debug\SpecflowTests.dll
+D:\git repos\MVP_Tasks\MVP_Studio\Onboarding\SpecflowTests\obj\Debug\SpecflowTests.pdb
