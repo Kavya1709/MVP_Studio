@@ -7,13 +7,15 @@
 Scenario Outline: Check if the seller is able to add skills
 	Given I have logged in and clicked on Skills tab under Profile tab
 	When I add <Skill> as <Level> as my skill
-	Then that skill should be displayed on my listing
-	#Then the newly added skill <Skill> should be displayed on my skills tab
+	Then the newly added skill <Skill> should be displayed on my skills tab
+
 
 	Examples:
 		| Skill       | Level        |
 		| Yoga        | Beginner     |
 		| Calligraphy | Intermediate |
+		| Cricket     | Expert       |
+		| Painting    | Intermediate | 
 
 @ignore
 #Update Skill

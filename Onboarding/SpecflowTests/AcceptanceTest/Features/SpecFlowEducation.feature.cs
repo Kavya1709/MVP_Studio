@@ -139,42 +139,20 @@ this.CheckIfSellerIsAbleToAddEducationDetails("Australia", "Monash", "M.B.A", "C
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if seller is able to add details without giving any one field")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowEducation")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute()]
-        public virtual void CheckIfSellerIsAbleToAddDetailsWithoutGivingAnyOneField()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if seller is able to add details without giving any one field", new string[] {
-                        "ignore"});
-#line 17
-this.ScenarioSetup(scenarioInfo);
-#line 18
- testRunner.Given("I have logged in and clicked on Education tab under Profile tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 19
- testRunner.When("I have enter all feilds under education tab except one", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 20
- testRunner.Then("that eduaction detail should not apppear on the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if the seller is able to update the education details")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowEducation")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         public virtual void CheckIfTheSellerIsAbleToUpdateTheEducationDetails()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if the seller is able to update the education details", new string[] {
-                        "ignore"});
-#line 23
+                        "mytag"});
+#line 18
 this.ScenarioSetup(scenarioInfo);
-#line 24
+#line 19
  testRunner.Given("I have logged in and clicked on Education tab under Profile tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 25
- testRunner.When("I click on the edit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 26
- testRunner.And("make changes in the any of the field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 27
+#line 20
+ testRunner.When("I edit education details and click in update button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 21
  testRunner.Then("the updated detail should be replaced in the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -183,18 +161,18 @@ this.ScenarioSetup(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if the seller can delete any eduation detail that is added")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowEducation")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
         public virtual void CheckIfTheSellerCanDeleteAnyEduationDetailThatIsAdded()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if the seller can delete any eduation detail that is added", new string[] {
-                        "ignore"});
-#line 30
+                        "mytag"});
+#line 24
 this.ScenarioSetup(scenarioInfo);
-#line 31
+#line 25
  testRunner.Given("I have logged in and clicked on Education tab under Profile tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 32
- testRunner.When("I click on delete(X) button of the selected education detail", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 33
+#line 26
+ testRunner.When("I click on delete button of the selected education detail", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 27
  testRunner.Then("I that eduaction detail should not appear on the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -208,13 +186,13 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if seller can add education details without entering one field", new string[] {
                         "ignore"});
-#line 36
+#line 30
 this.ScenarioSetup(scenarioInfo);
-#line 37
+#line 31
  testRunner.Given("I have logged in and clicked on Education tab under Profile tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 38
+#line 32
  testRunner.When("I enter all the fields except Year of education field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 39
+#line 33
  testRunner.Then("that education detail should not be added in the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

@@ -18,14 +18,16 @@ namespace SpecflowPages.Utils
             Thread.Sleep(1000);
 
             //Enter Url                         
-            //Driver.driver.FindElement(By.XPath("//*[@id='home']/div/div/div[1]/div/a[2]")).Click();
             Driver.driver.FindElement(By.XPath("//*[@id=\"home\"]/div/div/div[1]/div/a")).Click();
+
             //Enter Username
             Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[1]/input")).SendKeys("kavyaprakash17@gmail.com");
-                                              //  / html / body / div[2] / div / div / div[1] / div / div[1] / input
+                                              
             //Enter password
-            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[2]/input")).SendKeys("17guddi09");
+            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[2]/input")).SendKeys("123456");
+
             Thread.Sleep(1000);
+
             //Click on Login Button
             Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[1]/div/div[4]/button")).Click();
 

@@ -99,7 +99,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.When(string.Format("I add a new Language as {0} and Language Level as {1}", language, languageLevel), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("that language should be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("that language <language> should be displayed on my listings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -207,12 +207,12 @@ this.CheckIfTheSellerIsAbleToDeleteTheLanguage("Hindi", "Native", ((string[])(nu
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if language can be added")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if language can be added without language level")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SpecFlowLanguage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute()]
-        public virtual void CheckIfLanguageCanBeAdded()
+        public virtual void CheckIfLanguageCanBeAddedWithoutLanguageLevel()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if language can be added", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if language can be added without language level", new string[] {
                         "ignore"});
 #line 43
 this.ScenarioSetup(scenarioInfo);
