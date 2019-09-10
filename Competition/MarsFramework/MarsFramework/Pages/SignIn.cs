@@ -71,9 +71,6 @@ namespace MarsFramework.Pages
             LoginBtn.Click();
             Thread.Sleep(1500);
 
-            Console.WriteLine("Could not identify Mars logo");
-
-
             string text = Global.GlobalDefinitions.driver.FindElement(By.XPath("//*[@id=\"account-profile-section\"]/div/div[1]/a")).Text;
 
             if (text == "Mars Logo")

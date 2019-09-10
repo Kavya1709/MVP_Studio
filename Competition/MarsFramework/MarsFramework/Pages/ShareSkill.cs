@@ -51,13 +51,25 @@ namespace MarsFramework.Pages
         [FindsBy(How = How.XPath, Using = "//input[@name='locationType'][@value='1']")]
         private IWebElement locationType { set; get; }
 
+        //Find Available days
+        [FindsBy(How = How.XPath, Using = "//input[@name ='startDate']")]
+        private IWebElement StartDate { set; get; }
+        
+        //Find Sunday Ckeckbox
+        [FindsBy(How = How.XPath, Using = "//input[@index='0'][@type ='checkbox']")]
+        private IWebElement Checkbox { set; get; }
+   
+        //Find Start Time under Availability
+        [FindsBy(How = How.XPath, Using = "//input[@name ='StartTime']")]
+        private IWebElement StartTime { set; get; }
+
+
+        //IWebElement txtBxDatePicker = driver.FindElement(By.Id("TextBoxOfDatePicker"));
+
+
         //Find Skill Trade
         [FindsBy(How = How.XPath, Using = "//input[@name='skillTrades'][@value='true']")]
         private IWebElement skillTrades { set; get; }
-
-        //Find Available days 
-        [FindsBy(How = How.XPath, Using = " ")]
-        private IWebElement Available_days { set; get; }
 
         //Find Skill-Exchange
         [FindsBy(How = How.XPath, Using = "//*[@id=\"service-listing-section\"]/div[2]/div/form/div[8]/div[4]/div/div/div/div/div/input")]
@@ -76,15 +88,16 @@ namespace MarsFramework.Pages
         private IWebElement Save { set; get; }
 
 
-
         internal void Share_Skill()
         {
+            Console.WriteLine("Start of shareSkill Method");
+
             //extent Reports
             // Base.test = Base.extent.StartTest("Login Test");
 
             //Click on ShareSkill
             Share_skill.Click();
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Populate the Excel Sheet
             GlobalDefinitions.ExcelLib.PopulateInCollection(Base.ExcelPath, "ShareSkill");
@@ -104,7 +117,7 @@ namespace MarsFramework.Pages
             //Enter Category            
             var selectElement = new SelectElement(Category);
             selectElement.SelectByText(Global.GlobalDefinitions.ExcelLib.ReadData(2, "Category"));
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Click on Sub Category
             SubCategory.Click();
@@ -126,6 +139,22 @@ namespace MarsFramework.Pages
 
             //Select Location Type
             locationType.SendKeys(Global.GlobalDefinitions.ExcelLib.ReadData(2, "Location Type"));
+
+            //Click on Avaliable days
+            StartDate.Click();
+
+            Thread.Sleep(1000);
+
+            //Select Available days
+            StartDate.SendKeys(Global.GlobalDefinitions.ExcelLib.ReadData(2, "Start Date"));
+
+            //Click on Sunday Checkbox
+            Checkbox.Click();
+
+            Thread.Sleep(1000);
+
+            //Select Start Time
+            StartTime.SendKeys(Global.GlobalDefinitions.ExcelLib.ReadData(2, "Start Time"));
 
             //Select Skill Trade
             skillTrades.SendKeys(Global.GlobalDefinitions.ExcelLib.ReadData(2, "Skill Trade"));
